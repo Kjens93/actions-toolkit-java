@@ -35,7 +35,7 @@ The toolkit is available from [JitPack](https://jitpack.io). Add the following s
 
 ## Packages
 
-:heavy_check_mark: [actions-toolkit-core](actions-toolkit-core) (complete!)
+:heavy_check_mark: [actions-toolkit-core](actions-toolkit-core) (Complete!)
 
 Provides functions for inputs, outputs, results, logging, secrets and variables. Read more [here](packages/core)
 

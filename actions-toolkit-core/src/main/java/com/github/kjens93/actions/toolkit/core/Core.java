@@ -40,6 +40,31 @@ public final class Core {
   }
 
   /**
+   * Gets the value of an environment variable. The value is also trimmed.
+   *
+   * @param name name of the variable to get
+   * @param required whether the variable is required; if required and not present, will throw
+   * @return string
+   */
+  public static String getVariable(@NonNull String name, boolean required) {
+    String val = Optional.ofNullable(System.getenv(name)).orElse("");
+    if (required && StringUtils.isBlank(val)) {
+      throw new IllegalStateException("Variable required and not supplied: " + name);
+    }
+    return val.trim();
+  }
+
+  /**
+   * Gets the value of an environment variable. The value is also trimmed.
+   *
+   * @param name name of the variable to get
+   * @return string
+   */
+  public static String getVariable(@NonNull String name) {
+    return getVariable(name, false);
+  }
+
+  /**
    * Registers a secret which will get masked from logs
    *
    * @param secret value of the secret

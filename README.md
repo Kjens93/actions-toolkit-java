@@ -1,6 +1,7 @@
 
 <p align="center">
-  <img alt="Actions Toolkit Logo" src="https://github.com/actions/toolkit/raw/master/res/at-logo.png">
+  <img alt="Actions Toolkit" src="https://github.com/actions/toolkit/raw/master/res/at-logo.png">
+  <img alt="Maven Central" src="https://img.shields.io/maven-central/v/com.github.kjens93/actions-toolkit-java">
 </p>
 
 <p align="center">

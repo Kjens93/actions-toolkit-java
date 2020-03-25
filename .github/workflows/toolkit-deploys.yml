@@ -2,6 +2,7 @@ name: toolkit-deploys
 
 on:
   push:
+    paths: ['**.xml', '**.java']
     branches: [master]
 
 jobs:

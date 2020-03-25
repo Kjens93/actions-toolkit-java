@@ -1,10 +1,10 @@
 
 <p align="center">
-  <img src="https://github.com/actions/toolkit/raw/master/res/at-logo.png">
+  <img alt="Actions Toolkit Logo" src="https://github.com/actions/toolkit/raw/master/res/at-logo.png">
 </p>
 
 <p align="center">
-  <a href="https://github.com/evereepay/actions-toolkit-java"><img alt="GitHub Actions status" src="https://github.com/evereepay/actions-toolkit-java/workflows/toolkit-unit-tests/badge.svg"></a>
+  <a href="https://github.com/Kjens93/actions-toolkit-java/actions"><img alt="GitHub Actions status" src="https://github.com/Kjens93/actions-toolkit-java/workflows/toolkit-unit-tests/badge.svg"></a>
 </p>
 
 
@@ -16,22 +16,7 @@ The GitHub Actions ToolKit for Java provides a set of packages to make creating 
 
 Java actions are not officially supported by GitHub. As such, you will need to use a Docker action to run your action code. 
 
-The toolkit is available from [JitPack](https://jitpack.io). Add the following snippets to your project's `pom.xml`:
-
-```xml
-<repositories>
-  <repository>
-    <id>jitpack.io</id>
-    <url>https://jitpack.io</url>
-  </repository>
-</repositories>
-```
-
-```xml
-<properties>
-  <actions-toolkit.version>1.0.0</actions-toolkit.version>
-</properties>
-```
+The toolkit is available from Maven Central.
 
 ## Packages
 
@@ -41,7 +26,7 @@ Provides functions for inputs, outputs, results, logging, secrets and variables.
 
 ```xml
 <dependency>
-  <groupId>com.github.kjens93.actions-toolkit-java</groupId>
+  <groupId>com.github.kjens93</groupId>
   <artifactId>actions-toolkit-core</artifactId>
   <version>${actions-toolkit.version}</version>
 </dependency>

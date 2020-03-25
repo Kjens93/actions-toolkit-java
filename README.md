@@ -1,11 +1,11 @@
 
 <p align="center">
   <img alt="Actions Toolkit" src="https://github.com/actions/toolkit/raw/master/res/at-logo.png">
-  <img alt="Maven Central" src="https://img.shields.io/maven-central/v/com.github.kjens93/actions-toolkit-java">
 </p>
 
 <p align="center">
   <a href="https://github.com/Kjens93/actions-toolkit-java/actions"><img alt="GitHub Actions status" src="https://github.com/Kjens93/actions-toolkit-java/workflows/toolkit-unit-tests/badge.svg"></a>
+  <a href="https://mvnrepository.com/artifact/com.github.kjens93/actions-toolkit-java"><img alt="Maven Central" src="https://img.shields.io/maven-central/v/com.github.kjens93/actions-toolkit-java"></a>
 </p>
 
 

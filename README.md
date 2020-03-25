@@ -27,7 +27,7 @@ Provides functions for inputs, outputs, results, logging, secrets and variables.
 
 ```xml
 <dependency>
-  <groupId>com.github.kjens93</groupId>
+  <groupId>com.github.kjens93.actions.toolkit</groupId>
   <artifactId>actions-toolkit-core</artifactId>
   <version>${actions-toolkit.version}</version>
 </dependency>

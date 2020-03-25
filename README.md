@@ -5,7 +5,7 @@
 
 <p align="center">
   <a href="https://github.com/Kjens93/actions-toolkit-java/actions"><img alt="GitHub Actions status" src="https://github.com/Kjens93/actions-toolkit-java/workflows/toolkit-unit-tests/badge.svg"></a>
-  <a href="https://mvnrepository.com/artifact/com.github.kjens93/actions-toolkit-java"><img alt="Maven Central" src="https://img.shields.io/maven-central/v/com.github.kjens93/actions-toolkit-java"></a>
+  <a href="https://mvnrepository.com/artifact/com.github.kjens93.actions.toolkit"><img alt="Maven Central" src="https://img.shields.io/maven-central/v/com.github.kjens93.actions.toolkit/actions-toolkit-java"></a>
 </p>
 
 

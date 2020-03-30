@@ -1,9 +1,6 @@
 name: toolkit-unit-tests
 
 on:
-  push:
-    paths: ['**.xml', '**.java']
-    branches-ignore: [master]
   pull_request:
     paths: ['**.xml', '**.java']
 
